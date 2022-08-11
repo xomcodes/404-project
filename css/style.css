@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+
+.image-section{
+    /* width: 40%;
+    height: 50%; */
+    /* background-image: url("../images/Scarecrow.png"); */
+  
+    width: 50%;
+    height: 500px;
+    background: url(../images/Scarecrow.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-top: 50px;
+   
+
+}
+
+
+
+
+.foundDiv{
+   width: 50%; 
+}
+
+/* .flex{
+display:flex
+} */
+
+
+.text-section{
+    width: 50%; 
+    margin-top:100px;  
+    height: 500px;
+    margin-left: 60px;
+  
+}
+
+.text-section h1{
+width: 480px;
+font-weight: 700;
+font-size: 64px;
+/* line-height: 95px; */
+letter-spacing: -0.035em;
+font-family:'Space Mono';
+/* margin-left: 10px; */
+}
+
+.text-section p{
+   font-family:  'Space Mono';
+   /* font-style: normal; */
+padding-top: 20px;
+width: 250px;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+}
+ 
+.text-button{
+padding-top: 20px;
+}
+
+.text-button .btn{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    }
+
+
+    /* mobile view */
+@media (max-width:426px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+     
+    }
+
+    .image-section{
+        /* width: 40%;
+        height: 50%; */
+        /* background-image: url("../images/Scarecrow.png"); */
+      
+        width: 100%;
+        height: 250px;
+        /* background: url(../images/Scarecrow.png) no-repeat;
+        background-size: cover;
+        align-items: center;
+        background-position:center; */
+        /* margin-top: 50px; */
+       
+    
+    }
+
+    .text-section{
+        width: 100%; 
+        /* margin-top:100px;   */
+        height: 250px;
+        /* margin-left: 60px; */
+        align-items: flex-start;
+        justify-items: start;
+    
+      
+    }
+
+    .text-section h1{
+        width: 480px;
+        font-weight: 700;
+        font-size: 40px;
+        /* line-height: 95px; */
+        letter-spacing: -0.01em;
+        font-family:'Space Mono';
+        /* margin-left: 10px; */
+        align-items: flex-start;
+        }
+
+}
