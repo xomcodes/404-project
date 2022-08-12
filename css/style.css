@@ -1,4 +1,4 @@
-*{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,8 @@
 }
 
 
-
-
-
 .container{
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     width: 90%;
     margin: 0 auto;
@@ -18,30 +15,18 @@
 }
 
 .image-section{
-    /* width: 40%;
-    height: 50%; */
-    /* background-image: url("../images/Scarecrow.png"); */
-  
     width: 50%;
     height: 500px;
     background: url(../images/Scarecrow.png) no-repeat;
     background-size: cover;
     background-position: left;
-    margin-top: 50px;
    
-
 }
-
-
-
 
 .foundDiv{
    width: 50%; 
 }
 
-/* .flex{
-display:flex
-} */
 
 
 .text-section{
@@ -82,7 +67,7 @@ padding-top: 20px;
     }
 
 
-    /* mobile view */
+   
 @media (max-width:426px){
     .container{
         flex-direction: column;
@@ -113,5 +98,97 @@ padding-top: 20px;
         font-family:'Space Mono';
         align-items: flex-start;
         }
+
+}  */
+
+
+
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+     
+}
+
+.flex{
+    display: flex;
+}
+
+
+#page-section .image-section{
+    width: 50%;
+    background-image: url('../images/Scarecrow.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 68vh;
+
+    margin-top: 50px;
+ }
+
+
+ #page-section .text-section{
+width: 50%;
+min-height: 68vh;
+margin-top: 40px;
+margin-left: 60px;
+
+ }
+
+
+
+ #page-section .text-section h1{
+    width: 480px;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -0.035em;
+    font-family:'Space Mono';
+    }
+
+
+
+    #page-section .text-section p{
+        font-family:  'Space Mono';
+     padding-top: 10px;
+     width: 250px;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 36px;
+     letter-spacing: -0.035em;
+    }
+
+
+     
+    #page-section .text-section .text-button{
+    padding-top: 30px;
+    }
+
+    #page-section .text-section .text-button .btn{
+   padding: 10px;
+   background-color: black;
+   color: white;
+    }
+
+
+/* Mobile View */
+@media (max-width: 426){
+    .flex-sm-column{
+        flex-direction: column;
+       }
+
+       #page-section .image-section{
+        width: 100%;
+       
+     }
+    
+     #page-section .text-section {
+      width: 100%;
+    
+    }
 
 }
