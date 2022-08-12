@@ -178,7 +178,7 @@ margin-left: 60px;
 /* Mobile View */
 
 
-@media only screen and (max-width: 426px){
+@media (max-width: 426px){
     /* .header{
         flex-direction: column;
         align-items: flex-start;
@@ -188,10 +188,10 @@ margin-left: 60px;
         flex-direction:column;
        }
 
-       .image-section{
+       /* .image-section{
         width: 100%;
        
-     }
+     } */
     
        /* .text-section {
       width: 100%;
@@ -199,6 +199,22 @@ margin-left: 60px;
       text-align: start;
     
     }  */
+
+
+
+    #page-section .image-section{
+        width: 100%;
+        background-image: url('../images/Scarecrow.png');
+        background-position: center;
+        background-size: cover;
+        min-height: 50vh;
+    
+        /* margin-top: 50px; */
+     }
+    
+
+
+
 
 
     #page-section .text-section{
