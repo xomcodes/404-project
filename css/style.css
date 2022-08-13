@@ -222,14 +222,27 @@ margin-left: 60px;
 
 
  #page-section .image-section{
-    /* width: 100%; */
+    min-width: 100%; 
+    max-width: 300px;
     /* align-items: center; */
     /* height: 50% */
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    background-image: url('../images/Scarecrow.png');
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: block;
+   
+
  } 
 
  
-
+ /* img
+ {
+     max-width: 100%;
+     /* min-width: 300px; */
+     /* height: auto;
+ } */ */
 
  
 #page-section .text-section{
@@ -240,19 +253,32 @@ margin-left: 60px;
 }
 
 
-
 #page-section .text-section h1{
-    width: 285px;
+    width: 328px;
     font-weight: 700;
     font-size: 64px;
     letter-spacing: -0.035em;
     font-family:'Space Mono';
-    }
+    ;
+    } 
 
+
+
+    /* #page-section .text-section h1{
+        Width: 350px;
+        Height:142px;
+        Top:407px;
+        Left:24px;
+        font-family:Space Mono ;
+font-weight:700;
+Size:48px;
+line-height:71.09px;
+letter-spacing:-3.5%
+        } */
 
 
     #page-section .text-section p{
-        width:328px ;
+        width:200px ;
         font-weight:400 ;
         font-size: 18px;
         letter-spacing: -0.035em;
@@ -273,8 +299,8 @@ margin-left: 60px;
               align-items: center;
            } */
 
-}
 
+        }
 
 
 
