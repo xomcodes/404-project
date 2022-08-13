@@ -121,12 +121,19 @@ padding-top: 20px;
 }
 
 
+#page-section{
+   min-height: 80vh;   
+}
+
+
+
 #page-section .image-section{
     width: 50%;
     background-image: url('../images/Scarecrow.png');
     background-position: center;
     background-size: cover;
     /* min-height: 80vh; */
+    height: 50%;
 
     margin-top: 20px;
     
