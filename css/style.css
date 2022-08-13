@@ -254,7 +254,7 @@ margin-left: 60px;
 
 
 #page-section .text-section h1{
-    width: 300px;
+      width: 285px;;
     font-weight: 700;
     font-size: 50px;
     letter-spacing: -0.035em;
@@ -278,7 +278,8 @@ letter-spacing:-3.5%
 
 
     #page-section .text-section p{
-        width:200px ;
+        width:328px ;
+        /* width:200px ; */
         font-weight:400 ;
         font-size: 18px;
         letter-spacing: -0.035em;
