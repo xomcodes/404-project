@@ -126,7 +126,7 @@ padding-top: 20px;
     background-image: url('../images/Scarecrow.png');
     background-position: center;
     background-size: cover;
-    min-height: 80vh;
+    /* min-height: 80vh; */
 
     margin-top: 20px;
     
@@ -135,7 +135,7 @@ padding-top: 20px;
  
  #page-section .text-section{
 width: 50%;
-min-height: 68vh;
+/* min-height: 68vh; */
 margin-top: 40px;
 margin-left: 60px;
 
