@@ -97,6 +97,7 @@ margin-left: 60px;
 
   #page-section .image-section{
      width: 50%; 
+     background-size: auto;
      /* margin-left: 40px; */
      /* background-position: center; */
    
@@ -109,7 +110,7 @@ margin-left: 60px;
     /* margin-left: 100px;
     background-image: url('../images/Scarecrow.png');
     background-position: center;
-    background-size: cover; */
+    
      /* height: 30vh;  */
     /* display: block;
     height: 60vh; */
