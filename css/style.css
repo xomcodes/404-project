@@ -26,17 +26,29 @@ h3{
 }
 
 
-#page-section .image-section{
+/* #page-section .image-section{
     width: 50%;
     background-image: url('../images/Scarecrow.png');
     background-position: center;
     background-size: cover;
     /* min-height: 80vh; */
-    height: 80vh;
-     margin-top: 30px;
+    /* height: 60vh; */
+     /* margin-top: 30px; */
+     /* height: 80vh;
+     margin-top: 30px; */
     
- }
+ 
+ */
 
+
+
+
+
+
+
+
+
+ 
  
  #page-section .text-section{
 width: 50%;
