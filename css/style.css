@@ -97,8 +97,9 @@ margin-left: 60px;
 
   #page-section .image-section{
      width: 50%; 
-     background-size:inherit
-     /* margin-left: 40px; */
+     background-position: center;
+     
+     margin-left: 40px;
      /* background-position: center; */
    
      
@@ -120,7 +121,9 @@ margin-left: 60px;
  }  
 
 
-
+ #page-section{
+    min-height: 50vh;   
+ }
 
 
 
