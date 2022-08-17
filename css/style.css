@@ -96,8 +96,8 @@ margin-left: 60px;
 
 
   #page-section .image-section{
-     width: 50%; 
-     margin-left: 40px;
+     width: 90vh; 
+     /* margin-left: 40px; */
      /* background-position: center; */
    
      
@@ -116,7 +116,7 @@ margin-left: 60px;
      /* margin-top: 20px; */
    
 
- }  */
+ }  
 
 
 
